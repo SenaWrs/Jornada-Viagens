@@ -14,3 +14,6 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
 }
+h1 {
+    color: var(--background-tertiary-color);
+}
