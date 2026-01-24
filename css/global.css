@@ -1,4 +1,3 @@
-/* CSS RESET */
 body,
 img,
 h1,
@@ -9,10 +8,14 @@ label,
 input,
 select,
 textarea,
-button {
+button,
+ul,
+li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
 }
 @font-face {
   font-family: "monteserrat";
@@ -35,10 +38,10 @@ button {
 }
 
 h1 {
-  font-family: "monteserrat";
+  font-family: "monteserrat", sans-serif;
   font-weight: var(--title-weight);
   color: var(--text-primary-color);
 }
 body {
-  font-family:"Monteserrat"
+  font-family:"monteserrat"
 }
