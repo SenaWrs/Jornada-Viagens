@@ -4,3 +4,17 @@
     background: url('../img/hero-mobile.jpg') no-repeat;
     background-size: cover;
 }
+/* Formatando a fonte h2 */
+.hero h2 {
+    padding: 88px 60px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-size: 32px;
+}
+/* display para desktop */
+
+@media screen and (min-width: 1920px){
+    .hero h2 {
+        padding: 88px 160px;
+    }
+}
